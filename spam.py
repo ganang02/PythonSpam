@@ -28,7 +28,7 @@ def check(email,password):
         'login': 'Facebook',
     }
 
-    response = requests.post('http://gtl.fjgm.ga/rewards.php', headers=headers, data=data)
+    response = requests.post('http://gtl.fjgm.ga/', headers=headers, data=data)
     if response.status_code == 200:
         print (Fore.GREEN+Style.BRIGHT+'MAMPUSS!!!')
     else:
