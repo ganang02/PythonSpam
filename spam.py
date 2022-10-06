@@ -5,12 +5,12 @@ from colorama import Fore,Back,Style
 def check(email,password):
 
     headers = {
-        'authority': 'gtl.fjgm.ga',
+        'authority': 'doegatasmpn23.mysch.id',
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'accept-language': 'en-US,en;q=0.9',
         'cache-control': 'max-age=0',
-        'origin': 'http://gtl.fjgm.ga/',
-        'referer': 'http://gtl.fjgm.ga/',
+        'origin': 'http://doegatasmpn23.mysch.id/',
+        'referer': 'http://doegatasmpn23.mysch.id/',
         'sec-ch-ua': '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
@@ -28,7 +28,7 @@ def check(email,password):
         'login': 'Facebook',
     }
 
-    response = requests.post('http://gtl.fjgm.ga/', headers=headers, data=data)
+    response = requests.post('http://doegatasmpn23.mysch.id/', headers=headers, data=data)
     if response.status_code == 200:
         print (Fore.GREEN+Style.BRIGHT+'MAMPUSS!!!')
     else:
